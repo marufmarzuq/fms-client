@@ -1,0 +1,213 @@
+/* .hatchery-form {
+  width: 100%;
+}
+
+.create-form {
+  margin: 10px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 0 12px 3px #d5d5d5;
+  height: calc(100% - 32px);
+}
+
+.create-form div h3 {
+  padding: 10px;
+  color: rgb(199, 186, 186);
+  flex: 0.55;
+}
+
+.create-form div p {
+  padding-top: 15px;
+}
+
+.hatchery-detail {
+  display: grid;
+  grid-template-rows: 180px 400px;
+  grid-gap: 5px;
+}
+
+.create-form-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 5px;
+  padding: 0px 10px;
+}
+
+.single-inp {
+  position: relative;
+  padding-left: 10px;
+}
+
+.single-inp label {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.single-inp input,
+.single-inp textarea {
+  width: 100%;
+  padding: 10px 18px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #333;
+  font-size: 14px;
+  outline: none;
+  padding-left: 48px;
+}
+
+.single-inp select {
+  width: 100%;
+  padding: 10px 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #333;
+  font-size: 14px;
+  outline: none;
+}
+
+.single-inp .input-no-img {
+  padding: 10px 16px;
+}
+
+.single-inp img {
+  position: absolute;
+  top: 8px;
+  left: 18px;
+  height: 23px;
+  width: 23px;
+}
+
+.single-inp > .vertical-line {
+  height: 38px;
+  border-right: 1px solid #ddd;
+  position: absolute;
+  top: 0px;
+  left: 45px;
+}
+
+.address-container {
+  margin: 10px;
+}
+
+.address-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 240px;
+  grid-gap: 2px;
+}
+
+.single-inp input:focus {
+  border: 1px solid #09d0a8;
+  border-color: #09d0a8;
+}
+
+.map-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 45px;
+  height: 100%;
+}
+
+.hatchery-form p {
+  color: #09d0a8;
+  padding: 6px 10px;
+}
+
+.horizontal-line {
+  border-bottom: 1px solid #ddd;
+  padding: 2px 0px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.addIcon {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.product-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 20px 20px;
+  grid-gap: 5px;
+  margin-top: 15px;
+}
+
+.delete-icon svg {
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+  color: rgb(37, 211, 102);
+  padding-top: 5px;
+}
+
+.hatchery-btn button {
+  width: 25%;
+  padding: 10px;
+  background-color: rgb(37, 211, 102);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  transition: 250ms ease-in-out;
+}
+
+.hatchery-btn button:hover {
+  color: white;
+  background-color: hsl(200, 100%, 50%);
+  transform: translateY(-4px);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.hatchery-img {
+  border: 1px solid #ddd;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hatchery-img img {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+}
+
+.hatchery-img p {
+  color: rgb(167, 163, 163);
+  position: absolute;
+  left: 20%;
+  top: 10%;
+}
+
+.hatchery-img input[type="file"] {
+  position: absolute;
+  transform: scale(2);
+  opacity: 0;
+}
+
+.hatchery-img .file-name {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+}
+
+.single-inp.head {
+  margin: 5px 0px;
+} */

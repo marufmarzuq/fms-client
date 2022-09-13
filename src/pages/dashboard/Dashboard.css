@@ -1,0 +1,10 @@
+.dashboard_farms_and_batches {
+  display: grid;
+  grid-template-columns: 58% 42%;
+}
+.dashboard_mortality_and_feed_data {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}

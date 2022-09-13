@@ -1,0 +1,73 @@
+.add_sf_left{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    row-gap: 2vh;
+    box-sizing: border-box;
+    width: 46%;
+    padding: 2%;
+}
+
+.add_sf_left_farm_title{
+  color: #46BC5C;
+}
+.idea_farm_select_add_sf{
+    width: 100%;
+}
+.add_sf_left_farm_name,.add_sf_left_farm_phone{
+    height: 8vh;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+}
+
+.idea_farm_select_add_sf > div >div >div >input {
+    height: 6vh;
+    border: 1px solid lightgray;
+}
+
+.add_sf_left > h4 {
+    border-bottom: 1px solid lightgrey;
+    padding: 2%;
+    color: #46BC5C;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-left: 0%;
+    width: 100%;
+}
+.add_sf_left_farm_photos,.add_sf_left_farm_videos{
+    width: 46%;
+    border: 1px solid lightgray;
+    height: 10vh;
+    margin-top: 2vh;
+}
+
+/* input[type = 'file']{
+    display: none;
+} */
+
+.file_upload_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.file_upload_box > h4{
+    border-bottom: 1px solid lightgrey;
+    padding: 2%;
+    color: #46BC5C;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-left: 0%;
+    width: 100%;
+}
+.onboard_sf_submit_btn{
+    justify-self: center;
+    width: 35%;
+    height: 6vh;
+    background-color: rgb(37, 211, 102);
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 06px;
+    display: block;
+}

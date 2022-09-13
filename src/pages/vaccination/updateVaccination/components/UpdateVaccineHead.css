@@ -1,0 +1,29 @@
+.update_vaccine_head {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column;
+  gap: 1vh;
+}
+
+.update_vaccine_head > h3 {
+  color: rgb(128, 128, 128);
+  font-weight: 600;
+  font-size: 1.3rem;
+  width: 100%;
+  margin-bottom: 3vh;
+}
+
+.satellite_farms_vaccination > div > div > div > input,
+.batch_vaccination > div > div > div > input,
+.idea_farm_vaccination > div > div > div > input {
+  height: 5vh;
+}
+.satellite_farms_vaccination,
+.batch_vaccination,
+.idea_farm_vaccination {
+  width: 50%;
+  margin-bottom: 2vh;
+  justify-self: flex-start;
+}

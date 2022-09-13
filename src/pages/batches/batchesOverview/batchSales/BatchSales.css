@@ -1,0 +1,64 @@
+.batch-sales {
+  box-shadow: 0 0 5px #ddd;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto 680px;
+}
+.bs-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #46bc5c;
+  margin-bottom: 25px;
+}
+.batch-input-cost {
+  display: grid;
+  grid-template-columns: auto 680px;
+  box-shadow: 0 0 5px #dddd;
+  border-radius: 10px;
+  padding: 20px;
+}
+.bs-left-bottom {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.bs-left-img {
+  background-color: #46bc5c;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bs-left-img img {
+  width: 60%;
+}
+.bs-left-details p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.bs-left-count {
+  font-size: 26px;
+  font-weight: 600;
+  color: #46bc5c;
+}
+.bs-right {
+  display: grid;
+  grid-template-columns: auto 400px;
+}
+.bst-header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #999;
+  color: white;
+  padding: 5px 10px;
+}
+.bst-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}

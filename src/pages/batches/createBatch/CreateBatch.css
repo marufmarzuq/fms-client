@@ -1,0 +1,114 @@
+.create-batch-page {
+  height: 96%;
+  background-color: #fff;
+  border-radius: 12px;
+  margin: 10px;
+  box-shadow: 0 0 12px 3px #d5d5d5;
+  padding: 0px 15px;
+  overflow-y: auto;
+}
+/* 
+.create-batch-page::-webkit-scrollbar {
+  width: 8px;
+}
+.create-batch-page::-webkit-scrollbar-thumb {
+  background: #46bc5c;
+  border-radius: 10px;
+}
+.create-batch-page::-webkit-scrollbar-track {
+  background: #ddd;
+} */
+
+
+#batch-supervisor {
+  width: 100%;
+  padding: 10px 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #333;
+  font-size: 14px;
+  outline: none;
+  background-color: #FAFAFA;
+  padding-left: 48px;
+}
+
+.vertical-line.batch {
+  height: 40px;
+}
+
+.create-batch-page > #batch-heading {
+  color: #7f839a;
+  font-size: 22px;
+  padding-top: 10px;
+}
+
+.create-batchForm {
+  display: grid;
+  /* grid-template-rows: 1fr; */
+}
+
+.batch-grid-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.product-batch-flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.product-batch-flex div {
+  width: 30%;
+}
+
+.product-batch-flex-second {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 3px;
+}
+
+.product-batch-flex-second.transport{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 0;
+}
+.product-batch-flex-second div {
+  width: 30%;
+}
+.product-batch-flex-second .single-check {
+  width: 8%;
+}
+
+.product-batch-flex-second  .single-check input {
+  margin-top: 5px;
+}
+
+.single-check {
+  margin: 20px;
+  display: flex;
+}
+
+.single-check .input-checkbox {
+  /* width: 0; */
+  padding: 10px;
+}
+.single-inp .po-search {
+  position: absolute;
+  top: 35%;
+  left: 85%;
+  cursor: pointer;
+}
+
+.feed-data-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 30px 1fr;
+  grid-gap:10px;
+}
+
+.error {
+  font-size: 12px;
+  color:red;
+}

@@ -1,0 +1,48 @@
+Widgets for each overview page
+
+Hatcheries
+
+1. Product stats Widget(total capacity for each prod, available, number of hatcheries)
+2. Hatchery count widget (number of hatcheries,active,inactive)
+3. hatchery cost widget (cost spent to hatcheries,breakdown of transport,material and other misc cost)
+4. mortality efficiency ( low mortality, medium and high)
+5. hatchery score range( score range wise count)
+
+Idea Farms
+
+1. Number of farms(total , green, amber and red)
+2. number of direct batches(total , green, amber and red)
+3. number of sf's under IF(tot,gren,amb,red)
+4. Feed (feed in stock, feed used, feed purchased)
+5. mortality (average of own farm mortality, total birds and mortality %)
+6. farm score based classification
+
+Farmer
+
+1. Total farmers
+2. number of aqai farmers vs 3rd party
+3. new farmers onboarded in last 7 days bar graph widget.
+4. vefied vs unverified
+5. farmers no of farms plot 
+6. farmers batches plot
+7. product level farmer split
+
+satellite farm
+
+1. No of farms(all,r,a,green)
+2. no.of batches( associated batches)
+3. feed efficiency
+4. mortality efficiency
+5. farm score based classificaton.
+6. count of batches based classification.
+7. last 7 days onboarded sat farms
+
+batches
+
+1. No of batches(all,r,a,green)
+2. feed efficiency
+3. mortality efficiency
+4. batches closing this week.
+5. last 7 days started batches
+6. product based batches(count per prod)
+7. daily data on track record.

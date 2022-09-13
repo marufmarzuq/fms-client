@@ -1,0 +1,14 @@
+.batch-header .sty-toggle-container {
+  background-color: #eeeeee;
+}
+.batch-header {
+  display: grid;
+  grid-template-columns: 1fr 240px 1fr;
+  padding: 20px 0 35px;
+}
+.btach-header-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #a2a4b5;
+  padding-left: 15px;
+}

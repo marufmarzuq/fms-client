@@ -1,0 +1,48 @@
+.batch-feed {
+  display: flex;
+  grid-gap: 30px;
+  gap: 30px;
+  padding: 30px 0 30px 20px;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+.batch-feed-cards-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+.batch-feed-card {
+  height: 115px;
+  width: 115px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.batch-feed-card:nth-child(1) {
+  border: 2px solid #fcc0dc;
+  background-color: #fff1f1;
+  color: #eb008d;
+}
+.batch-feed-card:nth-child(2) {
+  border: 2px solid #ffe0b7;
+  background-color: #fffcd4;
+  color: #bb6b00;
+}
+.batch-feed-card:nth-child(3) {
+  border: 2px solid #e5e5e5;
+  background-color: #fafafa;
+  color: #0099ec;
+}
+.batch-feed-card:nth-child(4) {
+  border: 2px solid #adedb9;
+  background-color: #effff6;
+  color: #46bc5c;
+}
+.bfc-count {
+  font-size: 30px;
+  font-weight: 500;
+}

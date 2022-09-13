@@ -1,0 +1,127 @@
+.profile-top-widget {
+  border: 1px solid #ddd;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 15px;
+}
+.profile-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 15px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+.profile-top-single-card {
+  display: flex;
+  align-items: flex-start;
+}
+img.ptdc-img {
+  height: 20px;
+  margin-right: 8px;
+}
+.profile-top-single-card p {
+  color: #333;
+}
+.profile-top-single-card span {
+  font-weight: 500;
+}
+.profile-bottom {
+  display: grid;
+  grid-template-columns: 450px auto 180px;
+  grid-gap: 15px;
+}
+.pb-images-container {
+  display: flex;
+  justify-content: space-between;
+}
+.pb-single-img {
+  height: 140px;
+  width: 140px;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+.pb-single-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+
+.batch-details-container {
+  padding: 0 15px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+.single-bdc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 0;
+  border-bottom: 1px solid #ddd;
+  font-weight: 500;
+  color: #333;
+}
+.single-bdc:last-child {
+  border: none;
+}
+.single-bdc > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.single-bdc.harvest {
+  color: #46bc5c;
+}
+.single-bdc.due {
+  color: #ff5151;
+}
+
+.batch-status-header {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+span.status-color-container {
+  padding: 6px 23px;
+  border-radius: 5px;
+  font-size: 13px;
+  text-transform: capitalize;
+  color: #68cd80;
+  font-weight: 400;
+}
+.profile-source-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 20px;
+  align-items: center;
+}
+.bo-widget-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #46bc5c;
+  text-transform: capitalize;
+}
+.profile-source-details > div p {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  color: #6e6e6e;
+  font-weight: 400;
+}
+.profile-source-details > div > h5 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.batch-overview-performance-gauge {
+  margin-top: 20px;
+  position: relative;
+}
+.batch-overview-performance-gauge .pgt-title {
+  color: #2e2e2e;
+  font-weight: 500;
+  margin-bottom: -5px;
+  font-size: 15px;
+}

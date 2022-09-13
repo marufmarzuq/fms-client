@@ -1,0 +1,54 @@
+.batch-stock {
+  display: flex;
+  align-items: center;
+  padding: 30px 0 30px 20px;
+  grid-gap: 30px;
+  gap: 30px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.batch-stock-cards-container {
+  display: grid;
+  justify-content: space-evenly;
+  width: 100%;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+.batch-stock-single-card {
+  text-align: center;
+  padding: 23px 0;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  box-shadow: 0 0 2px #ddd;
+}
+.batch-stock-single-card:nth-child(1) {
+  background-color: #eafffd;
+  color: #1accbb;
+}
+.batch-stock-single-card:nth-child(2) {
+  background-color: #eefff6;
+  color: #64c877;
+}
+.batch-stock-single-card:nth-child(3) {
+  background-color: #f7f7f7;
+  color: #7a7a7a;
+}
+.batch-stock-single-card:nth-child(4) {
+  background-color: #fff1f1;
+  color: #ff0b0b;
+}
+.batch-stock-single-card:nth-child(5) {
+  background-color: #fffdeb;
+  color: #ef9c50;
+}
+.batch-stock-single-card:nth-child(6) {
+  background-color: #f6f1ff;
+  color: #333;
+}
+.bssc-title {
+  font-weight: 400;
+}
+.bssc-amount {
+  font-weight: 600;
+  font-size: 17px;
+}

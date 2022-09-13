@@ -1,0 +1,198 @@
+.create-idea-farm {
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 0 12px 3px #d5d5d5;
+}
+
+/* .create-idea-farm::-webkit-scrollbar {
+    width: 8px;
+  }
+  .create-idea-farm::-webkit-scrollbar-thumb {
+    background: #46BC5C;
+    border-radius: 10px;
+  }
+  .create-idea-farm::-webkit-scrollbar-track {
+    background: #ddd;
+  } */
+
+  .idea-farm-form {
+      min-height : calc(100% - 100px);
+  }
+
+.create-idea-farm span {
+    color:#7F839A;
+    font-size: 22px;
+}
+
+.grid-idea-farm {
+display: grid;
+grid-template-rows: 1fr auto;
+}
+
+.grid-idea-farm-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:20px;
+}
+
+.stock-data-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 20px 1fr;
+    grid-gap: 10px;
+}
+
+.quantity-flex {
+    display: flex;
+    width: 100%;
+    gap:0px;
+}
+.quantity-flex div:nth-child(1) {
+    width: 70%;
+}
+.quantity-flex div:nth-child(2) {
+    width: 30%;
+}
+
+
+.single-inp .input-no-img.no-gap {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.single-inp-no-gap .input-no-img.unit-gap {
+    border-radius: 0px 5px 5px 0px;
+}
+.idea-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.idea-btn button {
+    width: 16%;
+    padding: 10px;
+    background-color: rgb(37, 211, 102);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    transition: 250ms ease-in-out;
+}
+
+.idea-btn button:hover {
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.no-option {
+    font-size: 14px;
+    color: #7f839a;
+}
+
+.react-select-option:focus {
+    color:#46BC5C;
+}
+
+.batch-data-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 20px 1fr;
+    grid-gap:20px;
+}
+
+.single-inp-no-gap select {
+    width: 100%;
+    padding: 10px 2px;
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 14px;
+    outline: none;
+    background-color: #FAFAFA;
+    margin-top: 10px;
+}
+
+/* It is for the select placeholder */
+.css-14el2xx-placeholder {
+    color: hsl(0, 0%, 50%);
+    grid-area: 1/1/2/3;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: black !important;
+}
+/* it is for the search line */
+.css-6j8wv5-Input {
+    margin: 2px;
+    margin-left: 0px !important;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left: 40px;
+    visibility: visible;
+    color: hsl(0, 0%, 20%);
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    display: inline-grid;
+    grid-area: 1/1/2/3;
+    grid-template-columns: 0 min-content;
+    box-sizing: border-box;
+}
+
+/* It is for the select full container */
+.css-b62m3t-container {
+    /* margin-left: 40px !important; */
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* It is for the searching word */
+.idea_farm_select > div > div > div >input {
+    color: inherit;
+    background: 0px center;
+    opacity: 1;
+    width: 100%;
+    grid-area: 1 / 2 / auto / auto;
+    font: inherit;
+    min-width: 4px;
+    border: 0px;
+    margin: 0px;
+    outline: 0px;
+    padding: 0px;
+    margin-left: 36px !important;
+}
+
+
+.css-1rhbuit-multiValue {
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 2px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 2px;
+    min-width: 0;
+    box-sizing: border-box;
+    margin-left: 40px !important;
+}
+
+.css-qc6sy-singleValue {
+    color: hsl(0, 0%, 20%);
+    grid-area: 1/1/2/3;
+    margin-left: 2px;
+    margin-right: 2px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
+    margin-left: 40px !important;
+font-size: 16px !important;
+}

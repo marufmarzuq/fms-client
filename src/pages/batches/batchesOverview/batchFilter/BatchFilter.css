@@ -1,0 +1,37 @@
+.batch-filter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 60px;
+  margin: 15px 15px 25px;
+}
+.batch-filter .single-select-conainer {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.ssc-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  border-right: 1px solid #ddd;
+}
+
+.ssc-img img {
+  height: 22px;
+}
+.batch-filter .css-b62m3t-container {
+  width: 100%;
+}
+.batch-filter .css-1s2u09g-control {
+  border-radius: 0 !important;
+  border: none !important;
+}
+.batch-filter .css-1pahdxg-control {
+  box-shadow: none !important;
+  border: none !important;
+}
+.batch-filter .css-1pahdxg-control:hover {
+  border: none !important ;
+}

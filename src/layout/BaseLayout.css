@@ -1,0 +1,21 @@
+.base_container {
+  display: grid;
+  grid-template-columns: 230px auto;
+}
+.sidebar_container {
+  background-color: white;
+  height: 100vh;
+  overflow: hidden;
+}
+.content_container {
+  background-color: #eaecf8;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #eaecf8;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100vh;
+}
+.base_container.sidebar-fold {
+  grid-template-columns: 0 auto;
+}

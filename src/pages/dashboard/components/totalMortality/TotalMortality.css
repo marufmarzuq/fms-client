@@ -1,0 +1,17 @@
+.totol-mortality {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: 0 0 10px #a2b5f5;
+  transition: 0.3s ease;
+}
+.totol-mortality:hover {
+  transform: scale(1.02);
+}
+
+.totol-mortality g.recharts-layer.recharts-pie {
+  transform: translate(50px, -50px);
+}
+.total-mortality-chart-container {
+  height: calc(100% - 31px);
+}

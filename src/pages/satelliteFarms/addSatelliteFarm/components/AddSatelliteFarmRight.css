@@ -1,0 +1,53 @@
+.add_sf_farm_right {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 46%;
+  padding: 2%;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+
+.add_sf_right_farm_title {
+  border-bottom: 1px solid lightgrey;
+  padding: 2%;
+  color: #46bc5c;
+  font-weight: 500;
+  font-size: 1rem;
+  padding-left: 0%;
+  width: 100%;
+  margin-bottom: 0;
+}
+.add_sf_right_farm_address_1 {
+  height: 8vh;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 06px;
+  margin-bottom: 2vh;
+}
+.add_sf_right_farm_address_2 {
+  height: 8vh;
+  width: 100%;
+  border: 1px solid lightgray;
+  margin-top: none;
+  border-radius: 06px;
+  margin-bottom: 2vh;
+}
+
+
+.add_sf_right_farm_pincode,
+.add_sf_right_farm_latitude,
+.add_sf_right_farm_landmark,
+.add_sf_right_farm_longitude {
+  width: 48%;
+  height: 8vh;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+}
+
+.add_sf_right_farm_pincode,.add_sf_right_farm_latitude,.add_sf_right_farm_landmark,.add_sf_right_farm_longitude{
+    width: 48%;
+    height: 8vh;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+}

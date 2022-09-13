@@ -1,0 +1,22 @@
+
+
+.table_container{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    margin-top: 3vh;
+}
+
+.table_body >div:nth-child(even){
+    background-color: white;
+    border-bottom: 1.5px solid lightgray;
+}
+.table_body >div:nth-child(odd){
+    background-color: #ECF7FF;
+    border-bottom: 1.5px solid #9dc6e4;
+}
+
+.table_body{
+    height: 60vh;
+    overflow-x: scroll;
+}

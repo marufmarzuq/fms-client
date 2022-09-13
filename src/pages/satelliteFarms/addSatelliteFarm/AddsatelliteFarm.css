@@ -1,0 +1,17 @@
+
+.add_satellite_farm_container{
+    height: 96%;
+    background-color: white;
+    border-radius: 12px;
+    margin: 1%;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px 2px grey;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add_satellite_farm_title{
+    width: 100%;
+    margin-bottom: 2vh;
+}

@@ -1,0 +1,9 @@
+.feed-bag-usage {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.feed-bag-usage .batch-graph-title {
+  color: #7b2dff;
+}

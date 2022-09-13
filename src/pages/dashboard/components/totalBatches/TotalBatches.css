@@ -1,0 +1,169 @@
+.total-batches-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 0 10px #a2b5f5;
+  transition: 0.3s ease;
+}
+.total-batches-container:hover {
+  transform: scale(1.02);
+}
+.tb-top {
+  position: relative;
+}
+.tb-top .right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.tb-bottom {
+  margin-top: 40px;
+}
+.tb-status-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+.tb-status-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.performance-gauge {
+  position: relative;
+  width: 230px;
+  margin-top: 10px;
+}
+
+.gauge {
+  width: 100%;
+  max-width: 250px;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  color: #004033;
+}
+
+.gauge__body {
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+  background: #e5e5e5;
+  position: relative;
+  border-top-left-radius: 100% 200%;
+  border-top-right-radius: 100% 200%;
+  overflow: hidden;
+}
+
+.gauge__fill {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: inherit;
+  height: 100%;
+  background: #46bc5c;
+  transform-origin: center top;
+  transition: transform 0.2s ease-out;
+}
+
+.gauge__cover {
+  width: 85%;
+  height: 170%;
+  background: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.perfomance-gauge-text {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+.pgt-percentage {
+  font-size: 25px;
+  font-weight: 600;
+  color: #46bc5c;
+}
+.pgt-title {
+  color: #555;
+  font-weight: 300;
+}
+
+/* Progress bar css */
+
+.tbss-percent {
+  position: relative;
+  width: 90px;
+  height: 90px;
+}
+.tbss-percent svg {
+  position: relative;
+  width: 90px;
+  height: 90px;
+}
+.tbss-percent svg circle {
+  width: 90px;
+  height: 90px;
+  fill: none;
+  stroke-width: 6;
+  stroke: #000;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 251;
+  stroke-dashoffset: 251;
+}
+.tbss-percent svg circle:nth-child(1) {
+  stroke: #f3f3f3;
+  stroke-dashoffset: 0;
+}
+/* .tbss-percent svg circle:nth-child(2) {
+  stroke: #03a9f4;
+  stroke-dashoffset: calc(251 - (251 * 50) / 100);
+} */
+.tbss-number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #555;
+  flex-direction: column;
+}
+
+.tbss-number-title {
+  font-size: 12px;
+  font-weight: 400;
+}
+.tbss-number span {
+  font-size: 15px;
+  font-weight: 400;
+}
+.green-circle .tbss-number-title {
+  color: #08a652;
+}
+.green-circle .tbss-number span {
+  color: #08a652;
+}
+.abmer-circle .tbss-number-title {
+  color: #f2af3e;
+}
+.abmer-circle .tbss-number span {
+  color: #f2af3e;
+}
+.red-circle .tbss-number-title {
+  color: #ff0000;
+}
+.red-circle .tbss-number span {
+  color: #ff0000;
+}
+.tb-status-total-number {
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 5px;
+}

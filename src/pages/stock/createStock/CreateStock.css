@@ -1,0 +1,248 @@
+.create_stock {
+  height: 96%;
+  background-color: white;
+  margin: 1%;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px #A2B5F5;
+  border-radius: 15px;
+  opacity: 1;
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1vw;
+  align-content: flex-start;
+}
+.create_stock_header {
+  display: flex;
+  width: 100%;
+  /* margin-top: 1vh; */
+}
+
+.stock-title {
+  width: 37%;
+}
+
+.create_stock_header span {
+  color:#7F839A;
+  font-size: 22px;
+}
+
+.labelled_inputs {
+  display: flex;
+  flex-flow: column;
+  row-gap: 1vh;
+  width: 30%;
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+  position: relative;
+}
+
+.labelled_inputs img {
+  z-index: 10;
+  position: absolute;
+  top: 38%;
+  left: 5%;
+}
+
+.labelled_inputs.batch {
+  margin-top: 44px;
+}
+
+/* .labelled_inputs .input-vendor-img {
+  position: absolute;
+  top: 50%;
+  left: 3%;
+} */
+
+.transport-container {
+  margin-top: 10px;
+}
+
+.single-inp .vendor_input {
+  padding: 10px 0px;
+  padding-left: 48px;
+}
+
+.single-inp .vertical-line.vendor {
+  height: 42px;
+}
+
+.single-inp .vendor_input_select {
+  padding: 10px 0px;
+  padding-left: 48px;
+}
+
+.idea_farm_select_stock,
+.satellite_farms_select_stock {
+  width: 100%;
+}
+
+.idea_farm_select_stock:hover,
+.satellite_farms_select_stock:hover {
+  border: 1px solid #46bc5c;
+}
+.idea_farms_select_stock > div > div > div > input,
+.satellite_farms_select_stock > div > div > div > input {
+  height: 4vh;
+}
+.create_stock > h4 {
+  width: 99.5%;
+  color: #46bc5c;
+  padding: 0.5%;
+  border-bottom: 1px solid lightgrey;
+  padding-left: 0px;
+  margin-bottom: 4vh;
+}
+
+.stock_product_cost {
+  width: 24%;
+  height: 5vh;
+  padding: 1%;
+  margin-bottom: 3vh;
+  border: 1px solid lightgray;
+  outline:none;
+  border-radius: 5px !important;
+  background-color: #FAFAFA
+}
+
+.product_details_stock {
+  display: flex;
+  width: 100%;
+  gap:30px ;
+}
+
+.product_details_stock {
+  display: flex;
+  width: 100%;
+  gap:30px ;
+}
+.stock_category,
+.stock_sub_category{
+  width: 24%;
+  height: 5vh;
+  /* padding: 1%; */
+  border: 1px solid lightgray;
+  outline:none;
+  border-radius: 5px !important;
+  background-color: #FAFAFA;
+  padding-left: 10px;
+}
+
+.stock_category:hover,
+.stock_sub_category:hover,
+.stock_product_cost:hover 
+{
+    border: 1px solid #46bc5c;
+}
+.quantity_box_with_unit {
+  display: flex;
+  width: 24%;
+  height: 5vh;
+  margin-bottom: 3vh;
+  background-color: #FAFAFA
+}
+#quantity_box_with_unit_quant {
+  width: 80%;
+  height: 100%;
+  padding: 1%;
+  border: 1px solid lightgray;
+  border-radius: 5px 0px 0px 5px;
+  background-color: #FAFAFA;
+  padding-left: 10px;
+}
+.quantity_box_with_unit_unit {
+  width: 20%;
+  height: 100%;
+  padding: 1%;
+  border: 1px solid lightgray;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #FAFAFA
+}
+.po_datalist_container{
+    width: 100%;
+}
+
+.po_datalist_container.search  {
+  position: relative;
+}
+
+.po_datalist_container.search input {
+  /* padding-left: 40px; */
+}
+
+.po_datalist_container img {
+  position: absolute;
+  top: 12%;
+  left: 20%;
+}
+.po_datalist {
+  display: block;
+  width: 24%;
+  height: 5.5vh;
+  padding: 1%;
+  margin-bottom: 3vh;
+  border: 1px solid lightgray;
+  background-color: #FAFAFA
+}
+.po_towards_name,.po_towards_details{
+   width: 35%;
+   height: 5.5vh ;
+   border: 1px solid lightgray;
+   padding: 6px;
+   background-color: #FAFAFA
+}
+
+.po_towards_cost{
+    width: 27.25%;
+    height: 5.5vh ;
+    border: 1px solid lightgray;
+    padding: 1%;
+    background-color: #FAFAFA
+}
+
+.create_stock_submit_btn {
+  justify-self: center;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(37, 211, 102);
+  border: none;
+  color: white;
+  font-weight: 700;
+  border-radius: 06px;
+  margin-top: 4vh;
+
+}
+
+.btn_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn_wrapper {
+  width: 100%;
+  margin-top: 2vh;
+  font-size: 16px;
+  font-weight:400;
+  letter-spacing: 1px;
+}
+
+
+.create_stock_submit_btn {
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.create_stock_submit_btn button:hover {
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.transport-container {
+  font-size: 16px;
+}
+.batch-subheading {
+  font-size: 16px;
+}

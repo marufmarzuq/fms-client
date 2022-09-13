@@ -1,0 +1,243 @@
+.create-daily-data {
+  background-color: #fff;
+  border-radius: 12px;
+  margin: 10px;
+  box-shadow: 0 0 12px 3px #d5d5d5;
+  padding: 0px 15px;
+  min-height: calc(100% - 25px);
+}
+
+.create-daily-data .heading {
+  padding: 10px;
+  color: #7f839a;
+  font-size: 22px;
+}
+
+.farms {
+  display: grid;
+  grid-template-columns: 300px;
+}
+
+.single-inp-daily img:hover {
+  filter: invert(38%) sepia(79%) saturate(658%) hue-rotate(301deg) brightness(88%) contrast(95%);
+}
+
+.single-inp-daily {
+  position: relative;
+  padding: 8px;
+}
+
+.single-inp-daily input {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  color: #333;
+  font-size: 14px;
+  outline: none;
+  padding-left: 48px;
+}
+
+.single-inp-daily img {
+  position: absolute;
+  top: 35%;
+  left: 6%;
+  font-size: 16px;
+}
+
+.single-inp-daily span {
+  height: 38px;
+  position: absolute;
+  border-right: 1px solid #d9d9d9;
+  top: 16%;
+  left: 15%;
+}
+
+.mortality-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  margin-left: 5px;
+}
+
+.title {
+  color: #46bc5c;
+  border-bottom: 1px solid #d9d9d9;
+  font-size: 16px;
+}
+
+.mortality-container div {
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  color: #333;
+  font-size: 14px;
+  outline: none;
+}
+
+.vaccination-container select,
+.box-grid-weight select,
+.box-grid select,
+.mortality-container select {
+  width: 100%;
+  padding: 12px 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  color: #333;
+  font-size: 14px;
+  outline: none;
+}
+
+.daily-data-image-upload {
+  border: 1px solid #d9d9d9;
+  width: 250px;
+  height: 45px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  background-color: #eaedf7;
+}
+.daily-data-image-upload img {
+  position: absolute;
+  color: #7f839a;
+  top: 18%;
+  left: 17%;
+  /* font-size: 18px; */
+}
+
+.daily-data-image-upload p {
+  position: absolute;
+  color: #7f839a;
+  top: 24%;
+  left: 36%;
+}
+.daily-data-image-upload #no-image {
+  position: absolute;
+  color: #7f839a;
+  top: 0%;
+  left: 8%;
+  font-size: 12px;
+}
+
+.daily-data-image-upload input[type="file"] {
+  position: absolute;
+  transform: scale(2);
+  opacity: 0;
+}
+
+.third-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  padding-top: 8px;
+}
+
+.box-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.box-grid-weight {
+  display: grid;
+  grid-template-columns: 1fr 118px;
+  grid-gap: 10px;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.fourth-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 8px;
+}
+
+.vaccination-container {
+  display: grid;
+  grid-template-columns: 140px 140px 240px;
+  margin-top: 10px;
+  grid-gap: 10px;
+  align-items: center;
+}
+
+.vaccination-container div:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+
+.vaccination-container div:nth-child(3) {
+  padding-left: 20px;
+}
+
+.supervisor-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-top: 4px;
+}
+
+.daily-data-image-upload.supervisor {
+  margin-top: 66px;
+}
+
+.daily-data-btn {
+  margin-top: 66px;
+  margin-left: 10px;
+}
+
+.daily-data-btn button {
+  width: 60%;
+  padding: 10px 28px;
+  background-color: #46bc5c;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: 250ms ease-in-out;
+}
+
+.supervisor-container div textarea {
+  border: none;
+  outline: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border: 1px solid #46bc5c;
+}
+
+::placeholder {
+  font-family: Poppins, sans-serif;
+  font-weight: light;
+  font-size: 14px;
+  color: #7f839a;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-family: Poppins, sans-serif;
+  font-weight: light;
+  font-size: 14px;
+  color: #7f839a;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  font-family: Poppins, sans-serif;
+  font-weight: light;
+  font-size: 14px;
+  color: #7f839a;
+}

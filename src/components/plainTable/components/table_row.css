@@ -1,0 +1,29 @@
+
+
+.table_row{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    color: black;
+    color: white;
+    box-sizing: border-box;
+}
+.table_row:hover{
+  /* transform: scaleZ(12); */
+  /* transform: scaleY(1.05); */
+}
+.table_row > div {
+    width: 100%;
+    padding: 1%;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    /* color: black; */
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: calc(1% + 8px);
+    flex-wrap: wrap;
+   
+   
+}

@@ -1,0 +1,88 @@
+.bic-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1b00cc;
+  margin-bottom: 25px;
+}
+.batch-input-cost {
+  display: grid;
+  grid-template-columns: auto 680px;
+  box-shadow: 0 0 5px #dddd;
+  border-radius: 10px;
+  padding: 20px;
+}
+.bic-left-bottom {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.bic-left-img {
+  background-color: #1b00cc;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bic-left-img img {
+  width: 55%;
+}
+.bic-left-details p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.bic-left-count {
+  font-size: 26px;
+  font-weight: 600;
+  color: #361fd2;
+}
+.input-cost-cards-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.icsc-img {
+  height: 70px;
+  width: 70px;
+  background-color: #ffaaaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 8px auto;
+}
+
+.input-cost-single-card {
+  width: 100px;
+  text-align: center;
+}
+.icsc-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: #333;
+}
+.icsc-input {
+  font-weight: 600;
+  margin: 2px 0 5px;
+}
+.icsc-percentage {
+  font-size: 10px;
+}
+
+.input-cost-single-card:nth-child(1) .icsc-input {
+  color: #82e700;
+}
+.input-cost-single-card:nth-child(2) .icsc-input {
+  color: #00c5c5;
+}
+.input-cost-single-card:nth-child(3) .icsc-input {
+  color: #6b13ff;
+}
+.input-cost-single-card:nth-child(4) .icsc-input {
+  color: #ec1094;
+}
+.input-cost-single-card:nth-child(5) .icsc-input {
+  color: #da6900;
+}

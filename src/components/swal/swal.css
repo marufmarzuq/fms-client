@@ -1,0 +1,19 @@
+.swal-modal {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: #000000ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+}
+.swal-modal-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 30%;
+}

@@ -1,0 +1,251 @@
+.create-form1 {
+  margin: 10px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 0 12px 3px #d5d5d5;
+  height: 96%;
+}
+.create-form1 h3 {
+  padding: 10px;
+  color: #7f839a;
+}
+.hatchery-detail {
+  display: flex;
+  /* grid-template-columns: 180px 370px;
+    grid-gap: 10px; */
+}
+
+.create-form-container {
+  display: grid;
+  grid-template-columns: 38% 62%;
+  grid-gap: 10px;
+  padding: 0px 10px;
+}
+
+.task-single-inp {
+  position: relative;
+}
+
+.task-single-inp label {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.task-single-inp input,
+.task-single-inp textarea {
+  width: 100%;
+  padding: 10px 48px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #333;
+  font-size: 14px;
+  outline: none;
+}
+
+.task-single-inp select {
+  width: 100%;
+  padding: 15px 53px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #333;
+  font-size: 14px;
+  outline: none;
+}
+
+.task-single-inp .input-no-img {
+  padding: 10px 16px;
+}
+
+.task-single-inp img {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  height: 23px;
+  width: 23px;
+}
+
+.task-single-inp > .vertical-line {
+  height: 38px;
+  border-right: 1px solid #ddd;
+  position: absolute;
+  top: 0px;
+  left: 38px;
+}
+
+.address-container {
+  margin: 10px;
+}
+
+.task-address-grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  padding-left: 20px;
+}
+
+.task-single-inp input:focus {
+  border: 2px solid #09d0a8;
+  border-color: #09d0a8;
+}
+
+.map-container {
+  display: block;
+  width: 80%;
+}
+
+.banner {
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+}
+.banner p {
+  color: #09d0a8;
+  padding: 6px 10px;
+}
+
+.horizontal-line {
+  border-bottom: 1px solid #ddd;
+  padding: 2px 0px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.addIcon {
+  width: 25px;
+  height: 25px;
+  margin-top: 17px;
+  cursor: pointer;
+}
+
+.task-product-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 20px;
+  grid-gap: 10px;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+
+.delete-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.width_25 {
+  width: calc(96% / 4);
+  margin-bottom: 2vh;
+
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 2%;
+  display: flex;
+}
+.create_stock > hr {
+  width: 100%;
+  border: 1px solid lightgray;
+  margin-bottom: 2vh;
+}
+.task-single-inp input,
+.task-single-inp textarea {
+  padding: 15px 100px;
+  margin-top: 0;
+}
+.task-single-inp select:focus {
+  border: 2px solid #09d0a8;
+  border-color: #09d0a8;
+}
+.sr-only {
+  display: none !important;
+}
+.table > thead {
+  background-color: #0099ec;
+  color: white;
+  font-size: 13px;
+}
+
+.react-bootstrap-table th .order-4:before {
+  margin-left: 3.5px;
+  content: "\2191";
+
+  font-size: 22px;
+  color: lime;
+}
+.react-bootstrap-table th .order-4:after {
+  content: "\2193";
+
+  color: red;
+  font-size: 22px;
+}
+.react-bootstrap-table th .caret-4-desc:before {
+  margin-left: 3.5px;
+  content: "\2191";
+
+  font-size: 22px;
+  color: lime;
+}
+.react-bootstrap-table th .caret-4-desc:after {
+  margin-left: 3.5px;
+  content: "\2191";
+
+  font-size: 22px;
+  color: red;
+}
+.react-bootstrap-table th .caret-4-asc:before {
+  margin-left: 3.5px;
+  content: "\2191";
+
+  font-size: 22px;
+  color: lime;
+}
+.react-bootstrap-table th .caret-4-asc:after {
+  margin-left: 3.5px;
+  content: "\2191";
+
+  font-size: 22px;
+  color: red;
+}
+.table > :not(caption) > * > * {
+  padding: 15px !important;
+  text-align: center;
+}
+
+.task-grid-container {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto;
+}
+
+.task-grid {
+  font-size: 30px;
+  text-align: center;
+}
+.table_heading {
+  color: rgb(127, 131, 154);
+  font-size: 22px;
+  margin: 15px 0px;
+}
+
+.task-single-inp .icon {
+  position: absolute;
+
+  top: 17px;
+
+  left: 18px;
+
+  height: 23px;
+
+  width: 23px;
+}
+
+.task-single-inp > .vertical-line {
+  height: 38px;
+
+  border-right: 1px solid #ddd;
+
+  position: absolute;
+
+  top: 10px;
+
+  left: 48px;
+}

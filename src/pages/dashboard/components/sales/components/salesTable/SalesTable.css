@@ -1,0 +1,121 @@
+.sales-table {
+  margin-top: 15px;
+}
+.sales-table-img img {
+  width: 45px;
+}
+.sales-table-header {
+  display: grid;
+  grid-template-columns: 100px repeat(6, 1fr);
+  text-align: center;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+.sales-table-single-row {
+  display: grid;
+  grid-template-columns: 100px repeat(6, 1fr);
+  text-align: center;
+  align-items: center;
+  border-bottom: 1px solid #ebebeb;
+  padding: 10px 0;
+}
+.sales-table-single-row:last-child {
+  border: none;
+  margin: 0;
+  padding-bottom: 0;
+}
+.sales-table-img {
+  height: 55px;
+  width: 55px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+}
+.sales-table-header > div {
+  color: #6b13ff;
+  font-weight: 500;
+  font-size: 15px;
+}
+.sales-table-header > div > div:last-child {
+  font-size: 11px;
+}
+.sales-table-name-column {
+  font-weight: 500;
+  color: #555;
+  font-size: 16px;
+}
+.sales-table-sold-column {
+  font-weight: 400;
+  color: #00ace1;
+  font-size: 16px;
+}
+.sales-table-revenue-column {
+  font-weight: 400;
+  color: #eb008d;
+  font-size: 16px;
+}
+.sales-img-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.st-graph-column {
+  display: flex;
+  justify-content: center;
+}
+/* Sales table circle graph */
+.st-percent {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+.st-percent svg {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+.st-percent svg circle {
+  width: 60px;
+  height: 60px;
+  fill: none;
+  stroke-width: 6;
+  stroke: #000;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 156;
+  stroke-dashoffset: 156;
+}
+.st-percent svg circle:nth-child(1) {
+  stroke: #f3f3f3;
+  stroke-dashoffset: 0;
+}
+
+.st-number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #555;
+}
+
+.st-number span {
+  font-size: 14px;
+  font-weight: 400;
+}
+.sales-table-single-row:nth-child(3n - 3) .st-percent svg circle:nth-child(2) {
+  stroke: #b433e3;
+}
+.sales-table-single-row:nth-child(3n - 2) .st-percent svg circle:nth-child(2) {
+  stroke: #e47e1b;
+}
+.sales-table-single-row:nth-child(3n - 1) .st-percent svg circle:nth-child(2) {
+  stroke: #1bc9e4;
+}

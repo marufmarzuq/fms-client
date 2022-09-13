@@ -1,0 +1,29 @@
+.sales {
+  border-radius: 7px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px #a2b5f5;
+  transition: 0.3s ease;
+}
+.sales:hover {
+  transform: scale(1.01);
+}
+.sales-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.sales-title {
+  font-size: 25px;
+  font-weight: 600;
+  color: #46bc5c;
+}
+img.sales-header-icon {
+  width: 60px;
+}
+.sales-price {
+  font-size: 25px;
+  font-weight: 600;
+  color: #333;
+}

@@ -1,0 +1,83 @@
+.total-farms-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 0 10px #a2b5f5;
+  box-sizing: border-box;
+  margin-right: 10px;
+  transition: 0.3s ease;
+}
+.total-farms-container:hover {
+  transform: scale(1.02);
+}
+.total-farms-header {
+  display: flex;
+  justify-content: space-between;
+}
+.widget-title {
+  color: #48bf7f;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.widget-count {
+  font-size: 35px;
+  font-weight: 600;
+  color: #333;
+}
+.total-farms-header .sty-toggle-container {
+  background-color: #eaecf8;
+}
+.total-farms-header .sty-toggle-bg {
+  box-shadow: 0 0 5px #72e7a8;
+}
+
+.tf-count-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 15px;
+}
+.tf-single-count-box {
+  display: flex;
+  align-items: center;
+  grid-gap: 20px;
+  gap: 20px;
+  padding: 15px;
+}
+.tf-single-count-box:first-child {
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.tf-single-count-box:nth-child(2) {
+  border-bottom: 1px solid #ddd;
+}
+.tf-single-count-box:nth-child(3) {
+  border-right: 1px solid #ddd;
+}
+.tf-single-count-box-img {
+  height: 60px;
+  width: 60px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.tf-single-count-box-img img {
+  width: 60%;
+}
+.tf-single-count-box-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tf-single-count-box-right p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7a7a7a;
+}
+.tf-single-count-box-right h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #333;
+}

@@ -1,0 +1,24 @@
+.all_batches_title{
+    font-size: 1.5rem;
+    color: grey;
+    font-weight: 500;
+}
+.all_batches_header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6vh;
+}
+
+.state_dropdown_batches{
+  width: 30%;
+}
+ .state_dropdown_batches > label {
+     font-size: 01rem;
+ }
+.region_select_batches{
+    width: 50%;
+    height: 40px;
+    border-radius: 6px;
+    margin-left: 0.7vw;
+}
